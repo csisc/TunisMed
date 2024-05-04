@@ -15,3 +15,7 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 - **output-authors-triples-finished.xlsx**: An Excel spreadsheet featuring author-publication links. Only authors ranked 36<sup>th</sup> or less have been considered.
 - **wikibase-schema-authors.json**: The Wikibase schema for uploading the author information in *output-authors-triples-finished.xlsx* to Wikidata.
 - **output_keywords_titles_abstracts.xlsx**: A subset of the Excel spreadsheet using titles, abstracts, and keywords.
+- **generating-tables-for-keywords**: Generates two Excel spreadsheets for MeSH-publication and keyword-publication pairs.
+- **mesh_keywords.xlsx**: The Excel spreadsheet for MeSH-publication pairs.
+- **keywords.xlsx**: The Excel spreadsheet for keyword-publication pairs.
+- **output-titles-abstracts.xlsx**: The Excel spreadsheet featuring the title and abstract of every single publication in English.
