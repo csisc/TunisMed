@@ -19,3 +19,4 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 - **mesh_keywords.xlsx**: The Excel spreadsheet for MeSH-publication pairs.
 - **keywords.xlsx**: The Excel spreadsheet for keyword-publication pairs.
 - **output-titles-abstracts.xlsx**: The Excel spreadsheet featuring the title and abstract of every single publication in English.
+- **ui.sparql**: The source code of the user interface of the database.
