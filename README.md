@@ -1,7 +1,8 @@
 # TunisMed
 A Project aiming to update the bibliographic metadata of La Tunisie Médicale, a peer-reviewed scholarly journal from Tunisia, in Wikidata, an open, collaborative and multilingual multidisciplinary knowledge graph.
 
-User Interface: https://w.wiki/9yX5
+* User Interface: https://w.wiki/9yX5
+* Scholia Profile: https://scholia.toolforge.org/venue/Q3213360
 
 # Description
 The bibliographic metadata is retrieved from PubMed. Then, the metadata are manually processed using Excel and OpenRefine. Finally, they are uploaded to Wikidata using OpenRefine:
