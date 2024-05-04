@@ -14,3 +14,4 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 - **output_authors.xlsx**: A subset of the Excel spreadsheet including author names.
 - **output-authors-triples-finished.xlsx**: An Excel spreadsheet featuring author-publication links. Only authors ranked 36<sup>th</sup> or less have been considered.
 - **wikibase-schema-authors.json**: The Wikibase schema for uploading the author information in *output-authors-triples-finished.xlsx* to Wikidata.
+- **output_keywords_titles_abstracts.xlsx**: A subset of the Excel spreadsheet using titles, abstracts, and keywords.
