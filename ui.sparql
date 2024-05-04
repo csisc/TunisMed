@@ -1,0 +1,9 @@
+PREFIX q: <https://query.wikidata.org/embed.html#SELECT%20*%20WHERE%20%7B%0A%20%20%3Flink%20wdt%3AP1433%20wd%3AQ3213360%3B%20wdt%3AP478%20%22>
+SELECT DISTINCT ?vol ?no ?pdat ?url WHERE {
+  ?x wdt:P1433 wd:Q3213360.
+  ?x wdt:P478 ?vol.
+  OPTIONAL{?x wdt:P433 ?no.}
+  ?x wdt:P577 ?pdat.
+  BIND(URI(CONCAT(STR(q:), ?vol, IF(EXISTS{?x wdt:P433 ?no}, CONCAT("%22%3B%20wdt%3AP433%20%22", ?no), ""), "%22.%0A%20%20%3Flink%20rdfs%3Alabel%20%3Fenglish_name.%0A%20%20FILTER(LANG(%3Fenglish_name)%3D%22en%22)%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Flink%20rdfs%3Alabel%20%3Ffrench_name.%0A%20%20%20%20FILTER(LANG(%3Ffrench_name)%3D%22fr%22)%0A%20%20%7D%0A%20%20%7D")) AS ?url)
+  }
+ORDER BY DESC(?pdat)
