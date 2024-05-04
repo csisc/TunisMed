@@ -11,3 +11,6 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 - **output_s.xlsx**: A subset of the Excel spreadsheet including some of the columns.
 - **output_s-excel-openrefine.xlsx**: A final edition of *output_s.xlsx* cleaned using Excel and OpenRefine and reconciled to Wikidata items.
 - **wikidata-schema-openrefine.json**: The Wikibase schema for uploading the bibliographic metadata in *output_s-excel-openrefine.xlsx* to Wikidata.
+- **output_authors.xlsx**: A subset of the Excel spreadsheet including author names.
+- **output-authors-triples-finished.xlsx**: An Excel spreadsheet featuring author-publication links. Only authors ranked 36<sup>th</sup> or less have been considered.
+- **wikibase-schema-authors.json**: The Wikibase schema for uploading the author information in *output-authors-triples-finished.xlsx* to Wikidata.
