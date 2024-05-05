@@ -25,3 +25,4 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 - **mesh-schema.json**: The Wikibase schema for uploading MeSH Keywords to Wikidata.
 - **keywords-xlsx.xlsx**: The Excel spreadsheet for keyword-publication pairs after removing non-specific keywords and reconciliation to Wikidata.
 - **keywords-schema.json**: The Wikibase schema for uploading non-MeSH Keywords to Wikidata.
+- **adding-ocr-to-pdf**: Adds an OCR layer to the PDF digitized edition of every volume of La Tunisie Médicale.
