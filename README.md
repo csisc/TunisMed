@@ -31,15 +31,15 @@ The bibliographic metadata is retrieved from PubMed. Then, the metadata are manu
 # Data Model
 | Property | Name                        | Notes                                                                                                   | Object                           |
 |----------|-----------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------|
-| P31      | instance of                 |                                                                                                         | *scholarly article* (Q13442814)  |
-| P1476    | title                       |                                                                                                         | monolingual text                 |
-| P921     | main subject                | *has use* (P366) is used to define the field where the keyword has been defined in PubMed               | Wikidata item                    |
-| P2093    | author name string          | *series ordinal* (P1545) is used to define the rank of the author                                       | string                           |
-| P407     | language of work or name    |                                                                                                         | Wikidata item                    |
-| P577     | publication date            |                                                                                                         | datetime                         |
-| P1433    | published in                |                                                                                                         | *La Tunisie Médicale* (Q3213360) |
-| P478     | volume                      |                                                                                                         | string                           |
-| P304     | page(s)                     |                                                                                                         | string                           |
-| P953     | full work available at URL  | *digitised by* (P8791) is used to define the institution that digitized the publication                 | string                           |
-| P698     | PubMed ID                   |                                                                                                         | external identifier              |
-| P356     | DOI                         |                                                                                                         | external identifier              |
+| [P31](https://www.wikidata.org/wiki/Property:P31)      | instance of                 |                                                                                                         | *scholarly article* (Q13442814)  |
+| [P1476](https://www.wikidata.org/wiki/Property:P1476)    | title                       |                                                                                                         | monolingual text                 |
+| [P921](https://www.wikidata.org/wiki/Property:P921)     | main subject                | *has use* (P366) is used to define the field where the keyword has been defined in PubMed               | Wikidata item                    |
+| [P2093](https://www.wikidata.org/wiki/Property:P2093)    | author name string          | *series ordinal* (P1545) is used to define the rank of the author                                       | string                           |
+| [P407](https://www.wikidata.org/wiki/Property:P407)     | language of work or name    |                                                                                                         | Wikidata item                    |
+| [P577](https://www.wikidata.org/wiki/Property:P577)     | publication date            |                                                                                                         | datetime                         |
+| [P1433](https://www.wikidata.org/wiki/Property:P1433)    | published in                |                                                                                                         | *La Tunisie Médicale* (Q3213360) |
+| [P478](https://www.wikidata.org/wiki/Property:P478)     | volume                      |                                                                                                         | string                           |
+| [P304](https://www.wikidata.org/wiki/Property:P304)     | page(s)                     |                                                                                                         | string                           |
+| [P953](https://www.wikidata.org/wiki/Property:P953)     | full work available at URL  | *digitised by* (P8791) is used to define the institution that digitized the publication                 | string                           |
+| [P698](https://www.wikidata.org/wiki/Property:P698)     | PubMed ID                   |                                                                                                         | external identifier              |
+| [P356](https://www.wikidata.org/wiki/Property:P356)     | DOI                         |                                                                                                         | external identifier              |
