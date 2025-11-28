@@ -1,7 +1,7 @@
 # TunisMed
 A Project aiming to update the bibliographic metadata of *La Tunisie Médicale*, a peer-reviewed scholarly journal from Tunisia, in *Wikidata*, an open, collaborative and multilingual multidisciplinary knowledge graph.
 
-* User Interface: https://w.wiki/9yX5
+* User Interface: https://w.wiki/GMHU
 * Scholia Profile: https://scholia.toolforge.org/venue/Q3213360
 
 # Description
